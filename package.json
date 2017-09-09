@@ -4,10 +4,7 @@
   "description": "",
   "main": "echo no main script",
   "scripts": {
-    "conv": "./node_modules/.bin/webpack ./src/index.js ./dist/bundle.js",
-    "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
     "build": "./node_modules/.bin/webpack",
-    "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
     "startHMR": "webpack-dev-server --hotOnly"
   },

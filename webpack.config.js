@@ -14,7 +14,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: "Title from the EJS",
+            title: "Backendless",
             template: "./src/index.ejs",
             charset: "UTF-8"
         }),
